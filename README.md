@@ -1,23 +1,20 @@
 ## Getting started
 
 ### Setup
-
-First install jupyter:
+First, clone the directory and make sure you have jupyter installed.
 ```commandline
 pip install jupyter
 ```
 
-To start the notebook run:
-```commandline
-jupyter notebook
-```
-
-To enable widgets run:
-
+Then enable jupyter widgets.
 ```commandline
 jupyter nbextension install --py widgetsnbextension --user
 ```
-and
 ```commandline
 jupyter nbextension enable widgetsnbextension --user --py
+```
+
+Finally we can start jupyter notebook and select the tictactoe notebook.
+```commandline
+jupyter notebook
 ```
